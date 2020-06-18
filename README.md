@@ -16,13 +16,13 @@ A list of parts and software which can  support your PicoBrew devices.
 
 ### PicoPak Hacks
 
-####Grain Bin Bottom
+#### Grain Bin Bottom
 1/4 Inch Hole SS 8.375” x 12” https://www.ebay.com/itm/Perforated-304-Stainless-Steel-1-4-inch-hole-20-gauge-Price-per-10-square-inch/130754223088
 
 #### PicoPak Hop Bin
 - Zymatic hop cage (Cut in Half)
 - [Nylon 3D Printed PicoPak Clone](https://www.thingiverse.com/thing:3322714?fbclid)
-- [Steam Pan, 1/9 by 4-Inch](PicoPak Hop Bin)
+- [Steam Pan, 1/9 by 4-Inch](https://amzn.to/3fyXonN)
 
 #### PicoPak Grain Bin
 - [6 Quart SS Steamer Insert](https://amzn.to/2YImaLp)
