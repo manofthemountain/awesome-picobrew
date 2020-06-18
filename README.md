@@ -17,7 +17,7 @@ A list of parts and software which can  support your PicoBrew devices.
 ### PicoPak Hacks
 
 #### Grain Bin Bottom
-1/4 Inch Hole SS 8.375” x 12” [ebay](https://www.ebay.com/itm/Perforated-304-Stainless-Steel-1-4-inch-hole-20-gauge-Price-per-10-square-inch/130754223088)
+- Stainless Steel 1/4 Inch Hole Sheet 8.375” x 12” [ebay](https://www.ebay.com/itm/Perforated-304-Stainless-Steel-1-4-inch-hole-20-gauge-Price-per-10-square-inch/130754223088)
 
 #### PicoPak Hop Bin
 - Zymatic hop cage (Cut in Half)
