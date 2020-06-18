@@ -10,7 +10,6 @@ A list of parts and software which can  support your PicoBrew devices.
 
 ### PicoBrew S/C/Pro
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
-
 - UnPak Line Connector - Ball Lock Keg Jumper Post
 -
 
@@ -27,7 +26,7 @@ A list of parts and software which can  support your PicoBrew devices.
 #### PicoPak Grain Bin
 - [6 Quart SS Steamer Insert](https://amzn.to/2YImaLp)
 - [4 Quart Plastic Sous Vide](https://amzn.to/3e9L4Kx)
--
+- 
 
 ### PicoBrew Zymatic
 
