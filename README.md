@@ -3,7 +3,7 @@ A list of parts and software which can  support your PicoBrew devices.
 
 --------------------
 ## Servers
-  - [picobrew_pico ](https://github.com/chiefwigms/picobrew_pico) - Self-hosted picobrew server that allows you to use your picobrew with out connecting to the offical picobrew servers
+- [picobrew_pico ](https://github.com/chiefwigms/picobrew_pico) - Self-hosted picobrew server that allows you to use your picobrew with out connecting to the offical picobrew servers
 
 ## Parts
 
