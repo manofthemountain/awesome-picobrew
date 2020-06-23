@@ -1,5 +1,5 @@
 # Awesome-Picobrew
-A list of parts and software which can  support your PicoBrew devices.
+A list of parts and software which can support your PicoBrew devices.
 
 --------------------
 ## Servers
@@ -10,6 +10,11 @@ A list of parts and software which can  support your PicoBrew devices.
 
 ### PicoBrew S/C/Pro
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
+- Solid State Relay LRSSR-DA
+- Boiler - (110V 1500W) ZIH 6120 583
+- Step Filter Lid - silicone (C/Pro) plastic (S)
+
+### PicoBrew S/Pro Kegs
 - Kegco KM175G-RBT Beer Keg, 1.75 Gallon
 - Draft Brewer Stackable Cannonball Stainless Steel 1.75 Gallon Mini Ball Lock Keg
 - Mini CO2 Regulator Kit - Ball Lock
@@ -17,7 +22,6 @@ A list of parts and software which can  support your PicoBrew devices.
 - Inline Filter
 - Corny Keg Ball Lock Jumper Line
 - Party Tap
--
 
 ### PicoPak Hacks
 
@@ -32,6 +36,7 @@ Pico UnPakd Kit
 - Zymatic hop cage (Cut in Half)
 - [Nylon 3D Printed PicoPak Clone](https://www.thingiverse.com/thing:3322714?fbclid)
 - [Steam Pan, 1/9 by 4-Inch](https://amzn.to/3fyXonN)
+-
 
 #### PicoPak Grain Bin
 - [6 Quart SS Steamer Insert](https://amzn.to/2YImaLp)
@@ -41,5 +46,6 @@ Pico UnPakd Kit
 ### PicoBrew Zymatic
 
 ### PicoBrew ZSeries
-
+- Boiler (120v 1400w) AET PN 12010 or 12021
+- Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
 ### PicoFerm
