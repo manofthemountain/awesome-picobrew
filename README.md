@@ -12,20 +12,24 @@ A list of parts and software which can support your PicoBrew devices.
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
 - Solid State Relay LRSSR-DA
 - Boiler - (110V 1500W) ZIH 6120 583
-- Step Filter Lid - silicone (C/Pro) plastic (S)
+- Rotary Valve (TBD)
+- Filter Sock for Reservoir Supply Line
+- Step Filter Lid - Silicone (C/Pro) Plastic (S)
+- Inline Filter
 
-### PicoBrew S/Pro Kegs
+### PicoBrew S/Pro Keg
 - Kegco KM175G-RBT Beer Keg, 1.75 Gallon
 - Draft Brewer Stackable Cannonball Stainless Steel 1.75 Gallon Mini Ball Lock Keg
 - Mini CO2 Regulator Kit - Ball Lock
 - UnPak Line Connector - Ball Lock Keg Jumper Post
-- Inline Filter
-- Corny Keg Ball Lock Jumper Line
+- Corny Keg Ball Lock Jumper Line - [brewhardware.com](https://www.brewhardware.com/product_p/blqddoublemale.htm)
 - Party Tap
 - Corny Keg Relief Valve Standard (Grey) approx. 90-100 PSI
 - Corny Keg Relief Valve Low Pressure (Red) approx. 10-12 PSI [Sound Homebrew Supply](http://www.soundhomebrew.com/corny-keg-relief-valve-10-12-psi/)
 - Spring for Corny Keg Relief Valve - 5/16" x 1 1/2" x .020"
 - Ball Lock Spunding valve
+
+### PicoBrew C Keg
 
 ### PicoPak Hacks
 
