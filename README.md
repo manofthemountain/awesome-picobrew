@@ -22,6 +22,10 @@ A list of parts and software which can support your PicoBrew devices.
 - Inline Filter
 - Corny Keg Ball Lock Jumper Line
 - Party Tap
+- Corny Keg Relief Valve Standard (Grey) approx. 90-100 PSI
+- Corny Keg Relief Valve Low Pressure (Red) approx. 10-12 PSI [Sound Homebrew Supply](http://www.soundhomebrew.com/corny-keg-relief-valve-10-12-psi/)
+- Spring for Corny Keg Relief Valve - 5/16" x 1 1/2" x .020"
+- Ball Lock Spunding valve
 
 ### PicoPak Hacks
 
@@ -48,4 +52,5 @@ Pico UnPakd Kit
 ### PicoBrew ZSeries
 - Boiler (120v 1400w) AET PN 12010 or 12021
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
+
 ### PicoFerm
