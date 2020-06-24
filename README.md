@@ -13,7 +13,7 @@ A list of parts and software which can support your PicoBrew devices.
 - Solid State Relay LRSSR-DA
 - Boiler - (110V 1500W) ZIH 6120 583
 - Rotary Valve (TBD)
-- Power Supply/Transformer 11
+- Power Supply/Transformer 110V and 220V versions
 - Cooling Fan 12VDC
 - Filter Sock for Reservoir Supply Line
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
@@ -28,7 +28,8 @@ A list of parts and software which can support your PicoBrew devices.
 - Party Tap
 - Corny Keg Relief Valve Standard (Grey) approx. 90-100 PSI
 - Corny Keg Relief Valve Low Pressure (Red) approx. 10-12 PSI [Sound Homebrew Supply](http://www.soundhomebrew.com/corny-keg-relief-valve-10-12-psi/)
-- Spring for Corny Keg Relief Valve - 5/16" x 1 1/2" x .020"
+- Spring for Corny Keg Relief Valve (Grey) - 5/16" x 1 1/2" x .020"
+- Spring for Corny Keg Relief Valve (Red)- .025" Wire Dia x .268" OD x .850" Length, Right Hand Coil, 15 Coils, Closed and Not Ground
 - Ball Lock Spunding valve
 
 ### PicoBrew C Keg
