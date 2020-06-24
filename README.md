@@ -9,10 +9,12 @@ A list of parts and software which can support your PicoBrew devices.
 ## Parts
 
 ### PicoBrew S/C/Pro
-- Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
+- Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM (there are two in the system)
 - Solid State Relay LRSSR-DA
 - Boiler - (110V 1500W) ZIH 6120 583
 - Rotary Valve (TBD)
+- Power Supply/Transformer 11
+- Cooling Fan 12VDC
 - Filter Sock for Reservoir Supply Line
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
 - Inline Filter
