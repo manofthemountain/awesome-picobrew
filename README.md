@@ -1,9 +1,15 @@
 # Awesome-Picobrew
 A list of parts and software which can support your PicoBrew devices.
 
-(Software)[#software]
-
-(Parts)[#parts]
+- [Software](#software)
+  * [Servers](#servers)
+  * [Recipe Creation](#recipe-creation)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 --------------------
 ## Software
 
