@@ -13,8 +13,11 @@ A list of parts and software which can support your PicoBrew devices.
 - Solid State Relay LRSSR-DA
 - Boiler - (110V 1500W) ZIH 6120 583
 - Rotary Valve (TBD)
+- Rotary Valve Motor - Mitsumi R-14 A491 (Datasheet TBD)
 - Power Supply/Transformer 110V and 220V versions
 - Cooling Fan 12VDC
+- RDID Reader - Custom PCB Board utilizing [NXP MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)
+- Control Board - Custom PCB Board utilizing
 - Filter Sock for Reservoir Supply Line
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
 - Inline Filter
