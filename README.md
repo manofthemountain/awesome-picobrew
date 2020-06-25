@@ -2,9 +2,17 @@
 A list of parts and software which can support your PicoBrew devices.
 
 --------------------
-## Servers
+## Software
+
+### Servers
 - [picobrew_pico](https://github.com/chiefwigms/picobrew_pico) - Self-hosted picobrew server that allows you to use your picobrew without connecting to the offical picobrew servers
 - [picobrew-server](https://github.com/hotzenklotz/picobrew-server) - A reverse engineered server for the proprietary PicoBrew Zymatic protocol
+
+## Recipe Creation
+* [PicoBrew Crafter](https://picobrew.com/Craft.cshtml) ends approx Oct 2020
+* [Brewfather](https://web.brewfather.app/)
+  * Contains profile for PicoBrew Z
+  * Can make custom profile for PicoBrew S/C/Pro
 
 ## Parts
 
