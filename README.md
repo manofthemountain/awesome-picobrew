@@ -5,8 +5,8 @@ A list of parts and software which can support your PicoBrew devices.
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
 - [Parts](#parts)
-  * [PicoBrew S/C/Pro](#picobrew-s-c-pro)
-    + [PicoBrew S/Pro Keg](#picobrew-s/pro-keg)
+  * [PicoBrew S-C-Pro](#picobrew-s-c-pro)
+    + [PicoBrew S-Pro Keg](#picobrew-s-pro-keg)
     + [PicoBrew C Keg](#picobrew-c-keg)
     + [PicoPak Hacks](#picopak-hacks)
   * [PicoBrew Zymatic](#picobrew-zymatic)
@@ -29,7 +29,7 @@ A list of parts and software which can support your PicoBrew devices.
 
 ## Parts
 
-### PicoBrew S/C/Pro
+### PicoBrew S-C-Pro
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM (there are two in the system)
 - Solid State Relay LRSSR-DA
 - Boiler - (110V 1500W) ZIH 6120 583
@@ -43,7 +43,7 @@ A list of parts and software which can support your PicoBrew devices.
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
 - Inline Filter (TBD)
 
-#### PicoBrew S/Pro Keg
+#### PicoBrew S-Pro Keg
 - Kegco KM175G-RBT Beer Keg, 1.75 Gallon
 - Draft Brewer Stackable Cannonball Stainless Steel 1.75 Gallon Mini Ball Lock Keg
 - Mini CO2 Regulator Kit - Ball Lock
