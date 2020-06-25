@@ -1,14 +1,17 @@
 # Awesome-Picobrew
 A list of parts and software which can support your PicoBrew devices.
 
+(Software)[#software]
+
+(Parts)[#parts]
 --------------------
 ## Software
 
 ### Servers
-- [picobrew_pico](https://github.com/chiefwigms/picobrew_pico) - Self-hosted picobrew server that allows you to use your picobrew without connecting to the offical picobrew servers
-- [picobrew-server](https://github.com/hotzenklotz/picobrew-server) - A reverse engineered server for the proprietary PicoBrew Zymatic protocol
+* [picobrew_pico](https://github.com/chiefwigms/picobrew_pico) - Self-hosted picobrew server that allows you to use your picobrew without connecting to the offical picobrew servers
+* [picobrew-server](https://github.com/hotzenklotz/picobrew-server) - A reverse engineered server for the proprietary PicoBrew Zymatic protocol
 
-## Recipe Creation
+### Recipe Creation
 * [PicoBrew Crafter](https://picobrew.com/Craft.cshtml) ends approx Oct 2020
 * [Brewfather](https://web.brewfather.app/)
   * Contains profile for PicoBrew Z
@@ -28,7 +31,7 @@ A list of parts and software which can support your PicoBrew devices.
 - Control Board - Custom PCB Board utilizing
 - Filter Sock for Reservoir Supply Line
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
-- Inline Filter
+- Inline Filter (TBD)
 
 ### PicoBrew S/Pro Keg
 - Kegco KM175G-RBT Beer Keg, 1.75 Gallon
