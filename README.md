@@ -5,10 +5,11 @@ A list of parts and software which can support your PicoBrew devices.
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
 - [Parts](#parts)
-  * [PicoBrew S/C/Pro](#picobrew-s/c/pro)
+  * [PicoBrew S/C/Pro](#picobrew-s-c-pro)
     + [PicoBrew S/Pro Keg](#picobrew-s/pro-keg)
     + [PicoBrew C Keg](#picobrew-c-keg)
     + [PicoPak Hacks](#picopak-hacks)
+  * [PicoBrew Zymatic](#picobrew-zymatic)
   * [PicoBrew ZSeries](#picobrew-zseries)
   * [PicoFerm](#picoferm)
 
