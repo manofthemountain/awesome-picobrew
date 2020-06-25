@@ -4,12 +4,15 @@ A list of parts and software which can support your PicoBrew devices.
 - [Software](#software)
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
-- [Heading](#heading-1)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+- [Parts](#parts)
+  * [PicoBrew S/C/Pro](#picobrew-s/c/pro)
+    + [PicoBrew S/Pro Keg](#picobrew-s/pro-keg)
+    + [PicoBrew C Keg](#picobrew-c-keg)
+    + [PicoPak Hacks](#picopak-hacks)
+  * [PicoBrew ZSeries](#picobrew-zseries)
+  * [PicoFerm](#picoferm)
+
+
 --------------------
 ## Software
 
@@ -39,7 +42,7 @@ A list of parts and software which can support your PicoBrew devices.
 - Step Filter Lid - Silicone (C/Pro) Plastic (S)
 - Inline Filter (TBD)
 
-### PicoBrew S/Pro Keg
+#### PicoBrew S/Pro Keg
 - Kegco KM175G-RBT Beer Keg, 1.75 Gallon
 - Draft Brewer Stackable Cannonball Stainless Steel 1.75 Gallon Mini Ball Lock Keg
 - Mini CO2 Regulator Kit - Ball Lock
@@ -52,24 +55,24 @@ A list of parts and software which can support your PicoBrew devices.
 - Spring for Corny Keg Relief Valve (Red)- .025" Wire Dia x .268" OD x .850" Length, Right Hand Coil, 15 Coils, Closed and Not Ground
 - Ball Lock Spunding valve
 
-### PicoBrew C Keg
+#### PicoBrew C Keg
 
-### PicoPak Hacks
+#### PicoPak Hacks
 
 Pico UnPakd Kit
 - Hops Bag
 - Grain Bag
 
-#### Grain Bin Bottom
+##### Grain Bin Bottom
 - Stainless Steel 1/4 Inch Hole Sheet 8.375” x 12” [ebay](https://www.ebay.com/itm/Perforated-304-Stainless-Steel-1-4-inch-hole-20-gauge-Price-per-10-square-inch/130754223088)
 
-#### PicoPak Hop Bin
+##### PicoPak Hop Bin
 - Zymatic hop cage (Cut in Half)
 - [Nylon 3D Printed PicoPak Clone](https://www.thingiverse.com/thing:3322714?fbclid)
 - [Steam Pan, 1/9 by 4-Inch](https://amzn.to/3fyXonN)
 -
 
-#### PicoPak Grain Bin
+##### PicoPak Grain Bin
 - [6 Quart SS Steamer Insert](https://amzn.to/2YImaLp)
 - [4 Quart Plastic Sous Vide](https://amzn.to/3e9L4Kx)
 -
