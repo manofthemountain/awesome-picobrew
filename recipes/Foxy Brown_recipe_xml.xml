@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.78</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.78 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>73</EFFICIENCY>
+    <TASTE_NOTES>Lucious malt complexity with a velvety texture. Fragrant piney hops round out this voluptuous Imperial Brown.</TASTE_NOTES>
+    <DATE>1/3/2015 6:49:03 PM</DATE>
+    <OG>1.069</OG>
+    <EST_OG>1.069</EST_OG>
+    <FG>1.0173</FG>
+    <EST_FG>1.0173</EST_FG>
+    <IBU>106</IBU>
+    <COLOR>32</COLOR>
+    <EST_COLOR>32</EST_COLOR>
+    <ABV>7.1</ABV>
+    <EST_ABV>7.1</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>18</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>23</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Specialty Beer</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>0</OG_MIN>
+      <OG_MAX>0</OG_MAX>
+      <FG_MIN>0</FG_MIN>
+      <FG_MAX>0</FG_MAX>
+      <IBU_MIN>0</IBU_MIN>
+      <IBU_MAX>0</IBU_MAX>
+      <COLOR_MIN>0</COLOR_MIN>
+      <COLOR_MAX>0</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Hydrate the brown sugar in a cup of hot water. Add this at the beginning of the boil cycle.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>63</MASH_TEMP>
+      <MASH_TIME>120</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>40</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>18</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>18</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>MultiStep</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Dough In</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>39</STEP_TEMP>
+          <STEP_TIME>20</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 1</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>30</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 2</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>68</STEP_TEMP>
+          <STEP_TIME>60</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash Out</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>79</STEP_TEMP>
+          <STEP_TIME>10</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Horizon</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.5</ALPHA>
+        <AMOUNT>0.0113</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Cascade</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.2</ALPHA>
+        <AMOUNT>0.0113</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Chinook</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12</ALPHA>
+        <AMOUNT>0.0397</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Amarillo</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>7</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Chinook</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.78</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>American Two-Row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>2.49</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.00</YIELD>
+        <COLOR>1.8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Crystal 80L</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.23</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>73.91</YIELD>
+        <COLOR>80</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Brown Sugar</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>96.96</YIELD>
+        <COLOR>1.9</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Chocolate</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>60.00</YIELD>
+        <COLOR>350</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Roasted Barley</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>71.74</YIELD>
+        <COLOR>300</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>2.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.23</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Denny's Favorite 50</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>1450</PRODUCT_ID>
+        <MIN_TEMPERATURE>16</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>21</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Foxy Brown</NAME>
+  </RECIPE>
+</RECIPES>

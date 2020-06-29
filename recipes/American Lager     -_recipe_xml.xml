@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>12.72</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>12.72 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>[Base Recipe] 
+A very pale, very sweet, medium-bodied Standard American Lager</TASTE_NOTES>
+    <DATE>12/4/2019 12:41:36 AM</DATE>
+    <OG>1.0548</OG>
+    <EST_OG>1.0548</EST_OG>
+    <FG>1.0126</FG>
+    <EST_FG>1.0126</EST_FG>
+    <IBU>13</IBU>
+    <COLOR>3</COLOR>
+    <EST_COLOR>3</EST_COLOR>
+    <ABV>5.7</ABV>
+    <EST_ABV>5.7</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>1</CATEGORY_NUMBER>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <NAME>Standard American Lager</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.04</OG_MIN>
+      <OG_MAX>1.05</OG_MAX>
+      <FG_MIN>1.004</FG_MIN>
+      <FG_MAX>1.01</FG_MAX>
+      <IBU_MIN>8</IBU_MIN>
+      <IBU_MAX>15</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>4</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Flaked rice is interchangeable with flaked maize in equal amounts. 
+Fermenation should last 30 days. Remove from cold ferm and bring to room temp for 3 days (Diacetyl Rest). 
+Crash cool to 32F, then rack off yeast. Allow to lager for 4 - 6 weeks before carbonating.
+Recipe created by Annie Johnson.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>12</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>12</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Tettnanger</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.1</ALPHA>
+        <AMOUNT>0.0099</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>12.72</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>American Two-Row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>2.27</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.00</YIELD>
+        <COLOR>1.8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Corn</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>86.09</YIELD>
+        <COLOR>0.55</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>American Lager Yeast</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>White Labs</LABORATORY>
+        <PRODUCT_ID>WLP840</PRODUCT_ID>
+        <MIN_TEMPERATURE>10</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>13</MAX_TEMPERATURE>
+        <ATTENUATION>77</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>20</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>American Lager     -</NAME>
+  </RECIPE>
+</RECIPES>

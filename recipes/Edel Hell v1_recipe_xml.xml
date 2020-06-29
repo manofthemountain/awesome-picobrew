@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>13.25</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>13.25 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>17.6</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>17.6 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>A pale, malty, medium-bodied Munich Helles.</TASTE_NOTES>
+    <DATE>9/16/2016 2:13:44 AM</DATE>
+    <OG>1.0584</OG>
+    <EST_OG>1.0584</EST_OG>
+    <FG>1.0175</FG>
+    <EST_FG>1.0175</EST_FG>
+    <IBU>20</IBU>
+    <COLOR>4</COLOR>
+    <EST_COLOR>4</EST_COLOR>
+    <ABV>5.6</ABV>
+    <EST_ABV>5.6</EST_ABV>
+    <PRIMARY_AGE>30240</PRIMARY_AGE>
+    <PRIMARY_TEMP>10</PRIMARY_TEMP>
+    <SECONDARY_AGE>40320</SECONDARY_AGE>
+    <SECONDARY_TEMP>2</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>1</CATEGORY_NUMBER>
+      <STYLE_LETTER>D</STYLE_LETTER>
+      <NAME>Munich Helles</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.045</OG_MIN>
+      <OG_MAX>1.051</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.012</FG_MAX>
+      <IBU_MIN>16</IBU_MIN>
+      <IBU_MAX>22</IBU_MAX>
+      <COLOR_MIN>3</COLOR_MIN>
+      <COLOR_MAX>5</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Water:
+2.57g CaCl
+Expected pH 5.36
+
+Chit Malt is essential, it lends that honey like graininess with an amazing head (and NO flaked barley is not the same).�
+Don't forget proper attenuation, all German beer is dry, with a malty backbone.. Hockurtz can only achieve this for me.
+pH is a HUGE factor, not only mash pH but kettle, fermenter, and final. The Germans like low mash pH's 5.2-3, so that way when it hits the kettle you start low and want to see about 4-9-5.0 into the fermenter(drop to 4.9 with phos if not). They also like low final pH of the beer.
+
+I won't touch too much on water because it has already been mentioned, but I prefer to use RO with enough cacl to get me to ~50 calcium. Minimal approach for me.
+
+Here is a recipe for a Helles that has won me many awards:
+
+Recipe: Edel Hell���TYPE: All Grain
+Style: Munich Helles
+---RECIPE SPECIFICATIONS-----------------------------------------------
+SRM: 3.7 SRM������SRM RANGE: 3.0-5.0 SRM
+IBU: 20.2 IBUs Rager���IBU RANGE: 16.0-22.0 IBUs
+OG: 1.048 SG������OG RANGE: 1.045-1.051 SG
+FG: 1.011 SG������FG RANGE: 1.008-1.012 SG
+BU:GU: 0.423������Calories: 151.6 kcal/12oz���Est ABV: 4.7 %������
+EE%: 62.00 %���Batch: 5.50 gal� � � Boil: 8.34 gal���BT: 60 Mins
+
+---WATER CHEMISTRY ADDITIONS----------------
+
+Total Grain Weight: 11 lbs 6.2 oz���Total Hops: 1.25 oz oz.
+---MASH/STEEP PROCESS------MASH PH:5.30 ------
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;-ADD WATER CHEMICALS BEFORE GRAINS!!&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+Amt� � � � � � � � � �Name� � � � � � � � � � � � � � � � � � �Type� � � � � #� � � � %/IBU� � � � �
+8 lbs 4.1 oz� � � � � Pilsner (Best Malz) (1.7 SRM)� � � � � � Grain� � � � �1� � � � 72.5 %� � � ��
+1 lbs 7.8 oz� � � � � Vienna Malt (Best Malz) (3.0 SRM)� � � � Grain� � � � �2� � � � 13.1 %� � � ��
+1 lbs 3.3 oz� � � � � Chit Malt (Best Malz) (2.0 SRM Grain� � � � �3� � � � 10.6 %� � � ��
+5.1 oz� � � � � � � � �Acid Malt (Best Malz) (3.0 SRM)� � � � � � � � � � � Grain� � � � �4� � � � 3.1 %� � � � �
+
+Name� � � � � � � Description� � � � � � � � � � � � � � �Step Temperat Step Time� � �
+Dough In� � � � � Add 9.67 gal of water at 125.9 F� � � � 122.0 F� � � �0 min� � � � �
+Maltose Rest� � � Heat to 145.0 F over 15 min� � � � � � �145.0 F� � � �30 min� � � ��
+Dextrinization Re Add -0.00 gal of water and heat to 162. 162.0 F� � � �40 min� � � ��
+Mash Out� � � � � Heat to 170.0 F over 4 min� � � � � � � 170.0 F� � � �15 min� � � ��
+
+---BOIL PROCESS-----------------------------
+Est Pre_Boil Gravity: 1.034 SG���Est OG: 1.048 SG
+Amt� � � � � � � � � �Name� � � � � � � � � � � � � � � � � � �Type� � � � � #� � � � %/IBU� � � � �
+0.25 oz� � � � � � � �Magnum [13.50 %] - Boil 60.0 min� � � � �Hop� � � � � �5� � � � 13.9 IBUs� � �
+0.50 oz� � � � � � � �Hallertauer Mittelfrueh [3.20 %] - Boil� Hop� � � � � �6� � � � 5.0 IBUs� � ��
+1.10 Items� � � � � � Whirlfloc Tablet (Boil 15.0 mins)� � � � Fining� � � � 7� � � � -� � � � � � �
+1.10 tsp� � � � � � � Yeast Nutrient (Boil 15.0 mins)� � � � � Other� � � � �8� � � � -� � � � � � �
+0.50 oz� � � � � � � �Hallertauer Mittelfrueh [3.20 %] - Boil� Hop� � � � � �9� � � � 1.3 IBUs� � ��
+
+Sprinkle in your yeast of choice.. I prefer 830. Oh yea I only use Best Malz, so YMMV. I brewed my last one with their new Heidelberg Malt, its lagering as we speak and won't come out until September but first tastes are GREAT.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>50</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>10</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>10</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Magnum</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.3</ALPHA>
+        <AMOUNT>0.0085</AMOUNT>
+        <USE>First Wort</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Hallertau Mittelfruh</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>2.7</ALPHA>
+        <AMOUNT>0.0283</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>17.6</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>3.06</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Vienna</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>3.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Chit</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.01</YIELD>
+        <COLOR>1.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Acid Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>73.04</YIELD>
+        <COLOR>1.9</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Munich Helles </NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>White Labs</LABORATORY>
+        <PRODUCT_ID>WLP860</PRODUCT_ID>
+        <MIN_TEMPERATURE>9</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>11</MAX_TEMPERATURE>
+        <ATTENUATION>70</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Primary Fermentation</NAME>
+          <TIME>30240</TIME>
+          <TEMP>10</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Lagering</NAME>
+          <TIME>40320</TIME>
+          <TEMP>2</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Edel Hell v1</NAME>
+  </RECIPE>
+</RECIPES>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>12.94</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>12.94 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>30</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Belgian wit with hibiscus and honey.</TASTE_NOTES>
+    <DATE>7/26/2015 4:51:34 PM</DATE>
+    <OG>1.0628</OG>
+    <EST_OG>1.0628</EST_OG>
+    <FG>1.0163</FG>
+    <EST_FG>1.0163</EST_FG>
+    <IBU>12</IBU>
+    <COLOR>4</COLOR>
+    <EST_COLOR>4</EST_COLOR>
+    <ABV>6.4</ABV>
+    <EST_ABV>6.4</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>21</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>16</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Witbier</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.044</OG_MIN>
+      <OG_MAX>1.052</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.012</FG_MAX>
+      <IBU_MIN>10</IBU_MIN>
+      <IBU_MAX>20</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>4</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>21</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>21</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>2.7</ALPHA>
+        <AMOUNT>0.0283</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>12.94</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Belgian Pils</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.59</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>1.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.02</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>83.70</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.34</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>2.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Honey</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.34</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>75.33</YIELD>
+        <COLOR>1.4</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Forbidden Fruit</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>3463</PRODUCT_ID>
+        <MIN_TEMPERATURE>17</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>24</MAX_TEMPERATURE>
+        <ATTENUATION>74</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <MISCS>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Coriander Seed</NAME>
+        <TYPE>Spice</TYPE>
+        <AMOUNT>5.7</AMOUNT>
+        <TIME>0</TIME>
+        <USE>Bottling</USE>
+        <USE_FOR>Fermentation</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Bitter Orange Peel</NAME>
+        <TYPE>Spice</TYPE>
+        <AMOUNT>5.7</AMOUNT>
+        <TIME>0</TIME>
+        <USE>Bottling</USE>
+        <USE_FOR>Fermentation</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+    </MISCS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>21</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>AHS Honey Hibiscus</NAME>
+  </RECIPE>
+</RECIPES>

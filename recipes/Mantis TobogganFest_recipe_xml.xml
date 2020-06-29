@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.59</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.59 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>90</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>An NHC First Round 1st Place Winner from Ryantology Brewing</TASTE_NOTES>
+    <DATE>4/21/2016 11:45:04 PM</DATE>
+    <OG>1.0631</OG>
+    <EST_OG>1.0631</EST_OG>
+    <FG>1.0158</FG>
+    <EST_FG>1.0158</EST_FG>
+    <IBU>60</IBU>
+    <COLOR>14</COLOR>
+    <EST_COLOR>14</EST_COLOR>
+    <ABV>6.5</ABV>
+    <EST_ABV>6.5</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>10</PRIMARY_TEMP>
+    <SECONDARY_AGE>7200</SECONDARY_AGE>
+    <SECONDARY_TEMP>18</SECONDARY_TEMP>
+    <TERTIARY_AGE>31680</TERTIARY_AGE>
+    <TERTIARY_TEMP>1</TERTIARY_TEMP>
+    <FERMENTATION_STAGES>3</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>3</CATEGORY_NUMBER>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <NAME>Oktoberfest/Marzen</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.05</OG_MIN>
+      <OG_MAX>1.057</OG_MAX>
+      <FG_MIN>1.012</FG_MIN>
+      <FG_MAX>1.016</FG_MAX>
+      <IBU_MIN>20</IBU_MIN>
+      <IBU_MAX>28</IBU_MAX>
+      <COLOR_MIN>7</COLOR_MIN>
+      <COLOR_MAX>14</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Notes:
+Fermentation - pitch at 48 &amp; let free rise to 50. Diacetyl rest for 5 days to make sure it's well attenuated.  After D-Rest rack to serving keg with gelatin or BioFine Clear.  Keep as close to freezing as possible for at least 3-4 weeks. Final Gravity should be around 1.014-1.015.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Pre-hop Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>40</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>13</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>13</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Hallertau Tradition</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6</ALPHA>
+        <AMOUNT>0.0425</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Hallertau Tradition</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.59</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Munich Dark</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.24</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>64.57</YIELD>
+        <COLOR>17.9</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Vienna Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.22</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>4</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.73</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Melanoidan </NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.24</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>75.00</YIELD>
+        <COLOR>20</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.98</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian CaraMunich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.06</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>75</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Aromatic</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.12</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>64.57</YIELD>
+        <COLOR>25</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Bohemian Lager</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>2124</PRODUCT_ID>
+        <MIN_TEMPERATURE>7</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>20</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Primary Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>10</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>D-Rest</NAME>
+          <TIME>7200</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>3</NUMBER>
+          <NAME>Lagering</NAME>
+          <TIME>31680</TIME>
+          <TEMP>1</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Mantis TobogganFest</NAME>
+  </RECIPE>
+</RECIPES>

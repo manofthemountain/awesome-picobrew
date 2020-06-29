@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>11.36</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>11.36 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>15.56</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>15.56 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Classic Saison with the addition of dried hibiscus petals. Rose tinted ale with a tart, floral and spicy finish.</TASTE_NOTES>
+    <DATE>7/29/2015 5:45:47 PM</DATE>
+    <OG>1.0621</OG>
+    <EST_OG>1.0621</EST_OG>
+    <FG>1.0149</FG>
+    <EST_FG>1.0149</EST_FG>
+    <IBU>62</IBU>
+    <COLOR>4</COLOR>
+    <EST_COLOR>4</EST_COLOR>
+    <ABV>6.4</ABV>
+    <EST_ABV>6.4</EST_ABV>
+    <PRIMARY_AGE>20160</PRIMARY_AGE>
+    <PRIMARY_TEMP>22</PRIMARY_TEMP>
+    <SECONDARY_AGE>4320</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>16</CATEGORY_NUMBER>
+      <STYLE_LETTER>C</STYLE_LETTER>
+      <NAME>Saison</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.048</OG_MIN>
+      <OG_MAX>1.065</OG_MAX>
+      <FG_MIN>1.002</FG_MIN>
+      <FG_MAX>1.012</FG_MAX>
+      <IBU_MIN>20</IBU_MIN>
+      <IBU_MAX>35</IBU_MAX>
+      <COLOR_MIN>5</COLOR_MIN>
+      <COLOR_MAX>14</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>OTHER HOP:  Add 1 oz each of Hibiscus flowers to hop cages 3 and 4. Set the ADVANCED tabs to incorporate these 10 minutes in boil.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>40</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>9</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>1</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 4</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct4</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>22</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>22</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>East Kent Goldings</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>5</ALPHA>
+        <AMOUNT>0.0621</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>East Kent Goldings</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>5</ALPHA>
+        <AMOUNT>0.0207</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Other (See Notes)</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>0.01</ALPHA>
+        <AMOUNT>0.0009</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>11</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Other (See Notes)</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>0.01</ALPHA>
+        <AMOUNT>0.0003</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>15.56</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Belgian Pils</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.81</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>1.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Pale Ale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>77.83</YIELD>
+        <COLOR>2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Soft White Wheat</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>86.09</YIELD>
+        <COLOR>2.75</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Barley</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>68.70</YIELD>
+        <COLOR>2.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>2.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Honey</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>75.33</YIELD>
+        <COLOR>1.4</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Belle Saison</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Lallemand</LABORATORY>
+        <PRODUCT_ID>3</PRODUCT_ID>
+        <MIN_TEMPERATURE>16</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>26</MAX_TEMPERATURE>
+        <ATTENUATION>76</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>20160</TIME>
+          <TEMP>22</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>4320</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Hibiscus Island</NAME>
+  </RECIPE>
+</RECIPES>

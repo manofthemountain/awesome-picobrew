@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>12.79</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>12.79 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>75</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>A Summer Blonde with the eineffable aroma and flavor of Sweet Woodruff co-mingled with tropical hop aromas.</TASTE_NOTES>
+    <DATE>5/17/2016 6:20:50 AM</DATE>
+    <OG>1.0543</OG>
+    <EST_OG>1.0543</EST_OG>
+    <FG>1.0136</FG>
+    <EST_FG>1.0136</EST_FG>
+    <IBU>36</IBU>
+    <COLOR>5</COLOR>
+    <EST_COLOR>5</EST_COLOR>
+    <ABV>5.5</ABV>
+    <EST_ABV>5.5</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>17</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>6</CATEGORY_NUMBER>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <NAME>Blonde Ale</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.038</OG_MIN>
+      <OG_MAX>1.054</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.013</FG_MAX>
+      <IBU_MIN>15</IBU_MIN>
+      <IBU_MAX>28</IBU_MAX>
+      <COLOR_MIN>3</COLOR_MIN>
+      <COLOR_MAX>6</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Put 1/3 oz of dried Sweet Woodruff leaves (Galium odoratum) in hopper #4 for the 9 minute boil.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>66</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>66</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>66</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Pre-hop Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>15</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>1</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 4</NAME>
+        <TEMP>97</TEMP>
+        <TIME>9</TIME>
+        <LOCATION>Adjunct4</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>17</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>17</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>66</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Galena</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>11.7</ALPHA>
+        <AMOUNT>0.0021</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>55</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Nelson Sauvin</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>11</ALPHA>
+        <AMOUNT>0.0164</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>25</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Nelson Sauvin</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>11</ALPHA>
+        <AMOUNT>0.0055</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>12.79</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Floor-Malted Bohemian Pilsner Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>2.32</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.43</YIELD>
+        <COLOR>2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Wheat Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.21</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>83.70</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Crisp 15L</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.14</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>77.50</YIELD>
+        <COLOR>15</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>CaraPils</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.07</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>72.00</YIELD>
+        <COLOR>1.5</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Kolsch</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>2565</PRODUCT_ID>
+        <MIN_TEMPERATURE>13</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>21</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <MISCS>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Irish Moss</NAME>
+        <TYPE>Fining</TYPE>
+        <AMOUNT>2.8</AMOUNT>
+        <TIME>9</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Yeast Nutrient</NAME>
+        <TYPE>Other</TYPE>
+        <AMOUNT>2.8</AMOUNT>
+        <TIME>9</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+    </MISCS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>17</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Blonde's Woodruff</NAME>
+  </RECIPE>
+</RECIPES>

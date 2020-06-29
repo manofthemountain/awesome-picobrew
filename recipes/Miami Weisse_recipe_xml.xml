@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>12.76</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>12.76 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>30</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Tart and refrisher base Berliner Weisse.</TASTE_NOTES>
+    <DATE>3/31/2016 4:35:52 PM</DATE>
+    <OG>1.0577</OG>
+    <EST_OG>1.0577</EST_OG>
+    <FG>1.0144</FG>
+    <EST_FG>1.0144</EST_FG>
+    <IBU>0</IBU>
+    <COLOR>4</COLOR>
+    <EST_COLOR>4</EST_COLOR>
+    <ABV>5.9</ABV>
+    <EST_ABV>5.9</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>18</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>17</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Berliner Weisse</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.028</OG_MIN>
+      <OG_MAX>1.032</OG_MAX>
+      <FG_MIN>1.003</FG_MIN>
+      <FG_MAX>1.006</FG_MAX>
+      <IBU_MIN>3</IBU_MIN>
+      <IBU_MAX>8</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>3</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>WARNING: This recipe requires additional steps, an additional pot/kettle for souring and boiling, and a pH meter.
+
+Prior to mashing mix 0.2 oz of Hallertau or low AA hops with grain in step filter. mash hops and grain at 149 F . There are no additional hop additions.
+
+Following the chill cycle, end the brew session and remove the gray keg hose attachment from the keg. Attach the rinsing wand to the gray hose attachment in place into an empty kettle that is at least 3 gallons in capacity. 
+
+Go to the "Help" menu on the zymatic picobrew system and click "Circulate". The circulate function will pump wort from the keg into the kettle for souring.
+
+Once the wort has been pumped into the kettle, add food grade lactic acid and gently stir (you do not want to oxygenate the wort). Check the wort pH with a pH meter, and continue adding lactic acid until the wort reaches a pH of 4.3. 
+
+Once the wort is at pH 4.3, add a commercial lacto bacteria culture or a handful of crushed grain to the kettle and cover the kettle with saran plastic wrap. The goal is to prevent oxygen from entering the kettle during souring. Optionally, you can purge the kettle head space with CO2 prior to covering the kettle. 
+
+Once the kettle is covered and airtight, place the kettle somewhere that is very warm or use a heating pad with a temp controller set no higher than 112 degrees Fahrenheit.
+
+Let the wort sit at 112 degrees F for 24 hrs. After 24 hrs check the pH with your meter, the pH should be below 4.0 and likely in the range of 3.3 to 3.5.
+
+Remove plastic from kettle and place kettle on stove or a large propane burner. Boil for 60 minutes to kill bacteria and drive of DMS forming compounds. Add distilled water to make up for boil off loss. Distilled water decrease acidity after boiling and increase  Chill wort to 65 F, oxygenate and add yeast. Ferment for two weeks. After two weeks add fruit if you desire (pineapple, raspberries, etc).</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>65</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>93</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>65</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>65</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>93</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil</NAME>
+        <TEMP>93</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>18</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>18</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>65</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>12.76</AMOUNT>
+        <CHLORIDE>1</CHLORIDE>
+        <NOTES> CHLORIDE UNITS:  | </NOTES>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.47</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Wheat</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>83.70</YIELD>
+        <COLOR>1.925</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>German Ale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>1007</PRODUCT_ID>
+        <MIN_TEMPERATURE>13</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>20</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <MISCS>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Rice Hulls</NAME>
+        <TYPE>Other</TYPE>
+        <AMOUNT>42.5</AMOUNT>
+        <TIME>0</TIME>
+        <USE>Bottling</USE>
+        <USE_FOR>Fermentation</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+    </MISCS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Miami Weisse</NAME>
+  </RECIPE>
+</RECIPES>
