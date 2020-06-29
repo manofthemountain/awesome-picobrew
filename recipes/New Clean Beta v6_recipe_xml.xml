@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>10.83</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>10.83 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>1</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>An amber, hoppy, very light-bodied American Light Lager.</TASTE_NOTES>
+    <DATE>7/5/2018 7:04:18 PM</DATE>
+    <OG>1.0145</OG>
+    <EST_OG>1.0145</EST_OG>
+    <FG>1.0035</FG>
+    <EST_FG>1.0035</EST_FG>
+    <IBU>6</IBU>
+    <COLOR>16</COLOR>
+    <EST_COLOR>16</EST_COLOR>
+    <ABV>1.4</ABV>
+    <EST_ABV>1.4</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>21</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>1</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>American Light Lager</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2015</STYLE_GUIDE>
+      <OG_MIN>1.028</OG_MIN>
+      <OG_MAX>1.04</OG_MAX>
+      <FG_MIN>0.998</FG_MIN>
+      <FG_MAX>1.008</FG_MAX>
+      <IBU_MIN>8</IBU_MIN>
+      <IBU_MAX>12</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>3</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>-Make sure that all 3 mash screens are in place in the step filter. Do not insert the adjunct loaf/hop cages.
+-Place cleaning tablet in the right area of the adjunct compartment, on top of the smaller screen, at the end of the metal tab. 1/4 cup of powdered dishwasher detergent can also be used.
+-Add 1.5 gallons of HOT tap water to the keg
+
+
+At completion of cleaning cycle (prompt notes/before final step)
+-Empty and rinse keg, step filter, screens, and in-line filter.
+-Fill keg with 4 gallons of hot tap water
+-Connect black fitting to 'OUT' post on keg
+-Attach wand to grey fitting and run it into bucket or sink, OR attach grey fitting to 'IN' post on empty keg
+-Continue, this will rinse your system. There should be no water left in the keg at the end of this step.
+
+Share your experience with info@picobrew.com, Subject - New Clean Beta attn: Kevin, attach pictures of debris removed and collected on screens if possible.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>1</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>21</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>21</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>007 Golden Hop</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>15</ALPHA>
+        <AMOUNT>0.0283</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>1</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>10.83</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Dark Dry Malt Extract</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Dry Extract</TYPE>
+        <YIELD>90.22</YIELD>
+        <COLOR>80</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Belle Saison</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Lallemand</LABORATORY>
+        <PRODUCT_ID>3</PRODUCT_ID>
+        <MIN_TEMPERATURE>16</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>26</MAX_TEMPERATURE>
+        <ATTENUATION>76</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>21</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>New Clean Beta v6</NAME>
+  </RECIPE>
+</RECIPES>

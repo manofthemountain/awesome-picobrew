@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.82</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.82 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>73</EFFICIENCY>
+    <TASTE_NOTES>A traditional beer from countries bordering the Baltic Sea. Full-bodied and smooth, with a well-aged alcohol warmth. This one will have you feel like your riding the Leviathan conquering the sea!</TASTE_NOTES>
+    <DATE>4/12/2016 4:44:47 PM</DATE>
+    <OG>1.0688</OG>
+    <EST_OG>1.0688</EST_OG>
+    <FG>1.0089</FG>
+    <EST_FG>1.0089</EST_FG>
+    <IBU>90</IBU>
+    <COLOR>29</COLOR>
+    <EST_COLOR>29</EST_COLOR>
+    <ABV>8.2</ABV>
+    <EST_ABV>8.2</EST_ABV>
+    <PRIMARY_AGE>30240</PRIMARY_AGE>
+    <PRIMARY_TEMP>11</PRIMARY_TEMP>
+    <SECONDARY_AGE>10080</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>12</CATEGORY_NUMBER>
+      <STYLE_LETTER>C</STYLE_LETTER>
+      <NAME>Baltic Porter</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.06</OG_MIN>
+      <OG_MAX>1.09</OG_MAX>
+      <FG_MIN>1.016</FG_MIN>
+      <FG_MAX>1.024</FG_MAX>
+      <IBU_MIN>20</IBU_MIN>
+      <IBU_MAX>40</IBU_MAX>
+      <COLOR_MIN>17</COLOR_MIN>
+      <COLOR_MAX>30</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Traditional beer from countries bordering the Baltic Sea. Derived from English porters but influenced by Russian Imperial Stouts. This particular beer is of Estonian heritage brewed for young Master Lev as he conquers the seas!</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>63</MASH_TEMP>
+      <MASH_TIME>120</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>40</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>11</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>11</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>MultiStep</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Dough In</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>39</STEP_TEMP>
+          <STEP_TIME>20</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 1</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>30</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 2</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>68</STEP_TEMP>
+          <STEP_TIME>60</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash Out</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>79</STEP_TEMP>
+          <STEP_TIME>10</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Sterling</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.3</ALPHA>
+        <AMOUNT>0.0638</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Sterling</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.3</ALPHA>
+        <AMOUNT>0.0213</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.82</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.81</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Munich Dark</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.23</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>64.57</YIELD>
+        <COLOR>17.9</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German CaraMunich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>71.74</YIELD>
+        <COLOR>35.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Chocolate</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>62.17</YIELD>
+        <COLOR>500</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>British Brown</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>68.70</YIELD>
+        <COLOR>70</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>SafLager</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>S-23</PRODUCT_ID>
+        <MIN_TEMPERATURE>12</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>15</MAX_TEMPERATURE>
+        <ATTENUATION>87</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>30240</TIME>
+          <TEMP>11</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>10080</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Lev's</NAME>
+  </RECIPE>
+</RECIPES>

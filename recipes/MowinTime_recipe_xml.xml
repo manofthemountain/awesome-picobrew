@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.21</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.21 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>A classic American pilsner balanced with German Saphir and French Strisselspalt hops. Exhibts a grainy malt backbone and zesty, citrusy aroma.</TASTE_NOTES>
+    <DATE>6/7/2017 6:09:51 PM</DATE>
+    <OG>1.0535</OG>
+    <EST_OG>1.0535</EST_OG>
+    <FG>1.0064</FG>
+    <EST_FG>1.0064</EST_FG>
+    <IBU>96</IBU>
+    <COLOR>5</COLOR>
+    <EST_COLOR>5</EST_COLOR>
+    <ABV>6.3</ABV>
+    <EST_ABV>6.3</EST_ABV>
+    <PRIMARY_AGE>20160</PRIMARY_AGE>
+    <PRIMARY_TEMP>11</PRIMARY_TEMP>
+    <SECONDARY_AGE>2880</SECONDARY_AGE>
+    <SECONDARY_TEMP>20</SECONDARY_TEMP>
+    <TERTIARY_AGE>7200</TERTIARY_AGE>
+    <TERTIARY_TEMP>6</TERTIARY_TEMP>
+    <FERMENTATION_STAGES>3</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>5</CATEGORY_NUMBER>
+      <STYLE_LETTER>D</STYLE_LETTER>
+      <NAME>German Pils</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2015</STYLE_GUIDE>
+      <OG_MIN>1.044</OG_MIN>
+      <OG_MAX>1.05</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.013</FG_MAX>
+      <IBU_MIN>22</IBU_MIN>
+      <IBU_MAX>40</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>5</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>These beer can be dry hopped with half an ounce of Saphir hops.  You can also use the fast fermentation adapter Pressure Relief Valve to speed up fermenation to 12 days at ambient temperature.  </NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 4</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct4</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>13</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>13</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Saphir</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>5.5</ALPHA>
+        <AMOUNT>0.0623</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Saphir</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>5.5</ALPHA>
+        <AMOUNT>0.0113</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Strisselspalt</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>3.5</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>20</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Saphir</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>5.5</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.21</AMOUNT>
+        <CHLORIDE>0.5</CHLORIDE>
+        <NOTES> CHLORIDE UNITS:  | </NOTES>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>American Two-Row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.00</YIELD>
+        <COLOR>1.8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Floor-Malted Bohemian Pilsner Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.91</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.43</YIELD>
+        <COLOR>2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Acid Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.07</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>73.04</YIELD>
+        <COLOR>1.9</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>SafLager</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>W-34/70</PRODUCT_ID>
+        <MIN_TEMPERATURE>12</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>15</MAX_TEMPERATURE>
+        <ATTENUATION>88</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>20160</TIME>
+          <TEMP>11</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>D Rest</NAME>
+          <TIME>2880</TIME>
+          <TEMP>20</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>3</NUMBER>
+          <NAME>Crash cool</NAME>
+          <TIME>7200</TIME>
+          <TEMP>6</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>MowinTime</NAME>
+  </RECIPE>
+</RECIPES>
