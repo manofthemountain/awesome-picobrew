@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.63</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.63 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>45</BOIL_TIME>
+    <EFFICIENCY>71</EFFICIENCY>
+    <TASTE_NOTES>Also known as a Wee Heavy, this rich, malty and usually sweet ale, can be suggestive of a dessert. Complex malt flavors prevent a one-dimensional impression.</TASTE_NOTES>
+    <DATE>9/3/2014 4:41:57 PM</DATE>
+    <OG>1.0748</OG>
+    <EST_OG>1.0748</EST_OG>
+    <FG>1.0217</FG>
+    <EST_FG>1.0217</EST_FG>
+    <IBU>26</IBU>
+    <COLOR>15</COLOR>
+    <EST_COLOR>15</EST_COLOR>
+    <ABV>7.4</ABV>
+    <EST_ABV>7.4</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>18</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>9</CATEGORY_NUMBER>
+      <STYLE_LETTER>E</STYLE_LETTER>
+      <NAME>Strong Scotch Ale</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.07</OG_MIN>
+      <OG_MAX>1.13</OG_MAX>
+      <FG_MIN>1.018</FG_MIN>
+      <FG_MAX>1.056</FG_MAX>
+      <IBU_MIN>17</IBU_MIN>
+      <IBU_MAX>35</IBU_MAX>
+      <COLOR_MIN>14</COLOR_MIN>
+      <COLOR_MAX>25</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Ferment this beer at the lower end of the temperature range. 64F is ideal. 
+Because of the high ABV%, this beer conditions well to round out any "hot" alcohol notes. One month is a suggested period of time. 
+I typically brew this beer at the beginning of fall and drink for a Thanksgiving holiday treat.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>63</MASH_TEMP>
+      <MASH_TIME>120</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Dough In</NAME>
+        <TEMP>39</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 1</NAME>
+        <TEMP>67</TEMP>
+        <TIME>30</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>45</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>18</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>18</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>MultiStep</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Dough In</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>39</STEP_TEMP>
+          <STEP_TIME>20</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 1</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>30</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 2</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>68</STEP_TEMP>
+          <STEP_TIME>60</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash Out</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>79</STEP_TEMP>
+          <STEP_TIME>10</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Northern Brewer</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.9</ALPHA>
+        <AMOUNT>0.0232</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>45</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.63</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>British Two-row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>3.85</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.96</YIELD>
+        <COLOR>2.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>British Roasted Barley</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.05</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>62.17</YIELD>
+        <COLOR>575</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Scottish Ale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>1728</PRODUCT_ID>
+        <MIN_TEMPERATURE>13</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>24</MAX_TEMPERATURE>
+        <ATTENUATION>71</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Wee Denny</NAME>
+  </RECIPE>
+</RECIPES>

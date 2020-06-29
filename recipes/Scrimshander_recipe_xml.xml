@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.06</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.06 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>A homage to one of the true greats, Scrimshaw Pilsner from North Coast Brewing. Crisp, refreshing with subtle hop character.</TASTE_NOTES>
+    <DATE>7/8/2015 11:05:49 PM</DATE>
+    <OG>1.0577</OG>
+    <EST_OG>1.0577</EST_OG>
+    <FG>1.015</FG>
+    <EST_FG>1.015</EST_FG>
+    <IBU>28</IBU>
+    <COLOR>5</COLOR>
+    <EST_COLOR>5</EST_COLOR>
+    <ABV>5.8</ABV>
+    <EST_ABV>5.8</EST_ABV>
+    <PRIMARY_AGE>30240</PRIMARY_AGE>
+    <PRIMARY_TEMP>11</PRIMARY_TEMP>
+    <SECONDARY_AGE>4320</SECONDARY_AGE>
+    <SECONDARY_TEMP>20</SECONDARY_TEMP>
+    <TERTIARY_AGE>7200</TERTIARY_AGE>
+    <TERTIARY_TEMP>0</TERTIARY_TEMP>
+    <OTHER_AGE>30240</OTHER_AGE>
+    <OTHER_TEMP>0</OTHER_TEMP>
+    <FERMENTATION_STAGES>4</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>2</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>German Pilsner</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.044</OG_MIN>
+      <OG_MAX>1.05</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.013</FG_MAX>
+      <IBU_MIN>25</IBU_MIN>
+      <IBU_MAX>45</IBU_MAX>
+      <COLOR_MIN>2</COLOR_MIN>
+      <COLOR_MAX>5</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Transfer to serving keg to lager after Diacetyl rest and crash cooling. Allow to lager for several weeks before serving.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>45</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>5</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>11</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>11</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>3.1</ALPHA>
+        <AMOUNT>0.0198</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Tettnanger</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.1</ALPHA>
+        <AMOUNT>0.0198</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>15</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Tettnanger</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.1</ALPHA>
+        <AMOUNT>0.0057</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.06</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>2.49</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Pilsner Lager</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>White Labs</LABORATORY>
+        <PRODUCT_ID>WLP800</PRODUCT_ID>
+        <MIN_TEMPERATURE>10</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>13</MAX_TEMPERATURE>
+        <ATTENUATION>74</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>30240</TIME>
+          <TEMP>11</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>D Rest</NAME>
+          <TIME>4320</TIME>
+          <TEMP>20</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>3</NUMBER>
+          <NAME>Crash Cool</NAME>
+          <TIME>7200</TIME>
+          <TEMP>0</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>4</NUMBER>
+          <NAME>Lager</NAME>
+          <TIME>30240</TIME>
+          <TEMP>0</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Scrimshander</NAME>
+  </RECIPE>
+</RECIPES>

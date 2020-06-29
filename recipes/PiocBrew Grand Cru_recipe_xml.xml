@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.29</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.29 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>The indigenous beer of West Flanders, typified by the products of the Rodenbach brewery, established in 1820 in West Flanders but reflective of earlier brewing traditions.</TASTE_NOTES>
+    <DATE>6/3/2015 6:01:26 PM</DATE>
+    <OG>1.0628</OG>
+    <EST_OG>1.0628</EST_OG>
+    <FG>1.0126</FG>
+    <EST_FG>1.0126</EST_FG>
+    <IBU>18</IBU>
+    <COLOR>17</COLOR>
+    <EST_COLOR>17</EST_COLOR>
+    <ABV>6.8</ABV>
+    <EST_ABV>6.8</EST_ABV>
+    <PRIMARY_AGE>20160</PRIMARY_AGE>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>17</CATEGORY_NUMBER>
+      <STYLE_LETTER>B</STYLE_LETTER>
+      <NAME>Flanders Red Ale</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.048</OG_MIN>
+      <OG_MAX>1.057</OG_MAX>
+      <FG_MIN>1.002</FG_MIN>
+      <FG_MAX>1.012</FG_MAX>
+      <IBU_MIN>10</IBU_MIN>
+      <IBU_MAX>25</IBU_MAX>
+      <COLOR_MIN>10</COLOR_MIN>
+      <COLOR_MAX>16</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>The beer is aged for up to two years, often in huge oaken barrels which contain the resident bacteria necessary to sour the beer. It was once common in Belgium and England to blend old beer with young to balance the sourness and acidity found in aged beer. At home, brew a double batch and ferment for two weeks then transfer to a glass carboy with an addition of French oak cubes. 1 ounce should be fine. Put a bag over the carboy and check back in 6 months to a year!</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>20</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>20</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>East Kent Goldings</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.3</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.29</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Vienna</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>3.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Special B</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>62.17</YIELD>
+        <COLOR>221</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian CaraMunich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.07</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>75</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Corn</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>86.09</YIELD>
+        <COLOR>0.55</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Pils</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>1.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Aromatic</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.11</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>64.57</YIELD>
+        <COLOR>25</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>Belgian Sour Mix 1</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>White Labs</LABORATORY>
+        <PRODUCT_ID>WLP655</PRODUCT_ID>
+        <MIN_TEMPERATURE>27</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>29</MAX_TEMPERATURE>
+        <ATTENUATION>80</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>20160</TIME>
+          <TEMP>20</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>PiocBrew Grand Cru</NAME>
+  </RECIPE>
+</RECIPES>

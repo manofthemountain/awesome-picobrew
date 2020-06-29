@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>14.23</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>14.23 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>90</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Big and bold hops with a strong malt base yield a profile similar to Russian River's revered Pliny the Elder.</TASTE_NOTES>
+    <DATE>9/3/2014 5:32:29 PM</DATE>
+    <OG>1.0748</OG>
+    <EST_OG>1.0748</EST_OG>
+    <FG>1.0105</FG>
+    <EST_FG>1.0105</EST_FG>
+    <IBU>223</IBU>
+    <COLOR>7</COLOR>
+    <EST_COLOR>7</EST_COLOR>
+    <ABV>8.9</ABV>
+    <EST_ABV>8.9</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>18</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>14</CATEGORY_NUMBER>
+      <STYLE_LETTER>C</STYLE_LETTER>
+      <NAME>Imperial IPA</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.07</OG_MIN>
+      <OG_MAX>1.09</OG_MAX>
+      <FG_MIN>1.01</FG_MIN>
+      <FG_MAX>1.02</FG_MAX>
+      <IBU_MIN>60</IBU_MIN>
+      <IBU_MAX>120</IBU_MAX>
+      <COLOR_MIN>8</COLOR_MIN>
+      <COLOR_MAX>15</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>This beer calls for a lot of dry hopping. Keep in mind, if the beer's aroma is where you like it and you haven't finished with all of the dry hop additions - STOP.  Enough is enough and trust your nose to tell you. Cheers!
+
+.25 oz Columbus (Tomahawk or Zeus can be subbed here) Dry Hop (12 to 14 days total)
+.5 oz  Centennial Dry Hop (12 to 14 days total)
+.5 oz Simcoe Dry Hop (12 to 14 days total)
+.1 oz Columbus Dry Hop (5 days to go in dry hop)
+.1 oz Centennial  Dry Hop (5 days to go in dry hop)
+.1 oz Simcoe Dry Hop (5 days to go in dry hop)</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>45</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>15</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>25</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 4</NAME>
+        <TEMP>97</TEMP>
+        <TIME>5</TIME>
+        <LOCATION>Adjunct4</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>18</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>18</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Columbus</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>15.4</ALPHA>
+        <AMOUNT>0.0312</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>90</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Columbus</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>15.4</ALPHA>
+        <AMOUNT>0.0099</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>45</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Simcoe</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>13</ALPHA>
+        <AMOUNT>0.0524</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Centennial</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>10.5</ALPHA>
+        <AMOUNT>0.0142</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>5</TIME>
+      </HOP>
+      <HOP>
+        <NAME>Simcoe</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>13</ALPHA>
+        <AMOUNT>0.0213</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>5</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>14.23</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>American Two-Row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>3.63</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.00</YIELD>
+        <COLOR>1.8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Crystal 20L</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.14</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>76.09</YIELD>
+        <COLOR>20</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Belgian Carapils</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.23</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>71.74</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Cane sugar</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.34</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>99.24</YIELD>
+        <COLOR>1.1</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>SafAle</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>US-05</PRODUCT_ID>
+        <MIN_TEMPERATURE>18</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>28</MAX_TEMPERATURE>
+        <ATTENUATION>86</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Shiny the Welder</NAME>
+  </RECIPE>
+</RECIPES>

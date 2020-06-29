@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>12.79</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>12.79 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Slightly salty and slightly sour. An obscure Germanic beer that has been brewed for over 1,000 years.</TASTE_NOTES>
+    <DATE>2/17/2015 10:24:49 PM</DATE>
+    <OG>1.0567</OG>
+    <EST_OG>1.0567</EST_OG>
+    <FG>1.0142</FG>
+    <EST_FG>1.0142</EST_FG>
+    <IBU>11</IBU>
+    <COLOR>4</COLOR>
+    <EST_COLOR>4</EST_COLOR>
+    <ABV>5.7</ABV>
+    <EST_ABV>5.7</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>19</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>23</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Specialty Beer</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>0</OG_MIN>
+      <OG_MAX>0</OG_MAX>
+      <FG_MIN>0</FG_MIN>
+      <FG_MAX>0</FG_MAX>
+      <IBU_MIN>0</IBU_MIN>
+      <IBU_MAX>0</IBU_MAX>
+      <COLOR_MIN>0</COLOR_MIN>
+      <COLOR_MAX>0</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Add the acidulated malt to the mash for an additional 45 minutes after the primary mashing is complete. Spread it on top of the mashed grains and resume. 
+Add Sea Salt and Coriander the last 10 minutes of the boil. For the seeds: Crush and put into a mesh sock, open Keg Seal and float on top of the wort. Remove when boiling cycle is complete with a spoon.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>50</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>19</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>19</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Santiam</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>6.5</ALPHA>
+        <AMOUNT>0.0082</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>12.79</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Wheat</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>83.70</YIELD>
+        <COLOR>1.925</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Pilsener</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.02</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>81.90</YIELD>
+        <COLOR>1.65</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Acid Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>73.04</YIELD>
+        <COLOR>1.9</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>German Ale/Kolsch </NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>White Labs</LABORATORY>
+        <PRODUCT_ID>WLP029</PRODUCT_ID>
+        <MIN_TEMPERATURE>18</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>21</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <MISCS>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Coriander Seed</NAME>
+        <TYPE>Spice</TYPE>
+        <AMOUNT>14.2</AMOUNT>
+        <TIME>10</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Sea Salt</NAME>
+        <TYPE>Spice</TYPE>
+        <AMOUNT>11.3</AMOUNT>
+        <TIME>10</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: </NOTES>
+      </MISC>
+    </MISCS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>19</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>What Gose Around</NAME>
+  </RECIPE>
+</RECIPES>

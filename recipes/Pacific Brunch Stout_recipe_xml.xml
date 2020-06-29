@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.85</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.85 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>72</EFFICIENCY>
+    <TASTE_NOTES>Complex and robust malt that finishes hauntingly smooth. A fall favorite.</TASTE_NOTES>
+    <DATE>9/23/2015 11:32:17 PM</DATE>
+    <OG>1.0737</OG>
+    <EST_OG>1.0737</EST_OG>
+    <FG>1.0184</FG>
+    <EST_FG>1.0184</EST_FG>
+    <IBU>66</IBU>
+    <COLOR>53</COLOR>
+    <EST_COLOR>53</EST_COLOR>
+    <ABV>7.7</ABV>
+    <EST_ABV>7.7</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>18</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>23</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Specialty Beer</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>0</OG_MIN>
+      <OG_MAX>0</OG_MAX>
+      <FG_MIN>0</FG_MIN>
+      <FG_MAX>0</FG_MAX>
+      <IBU_MIN>0</IBU_MIN>
+      <IBU_MAX>0</IBU_MAX>
+      <COLOR_MIN>0</COLOR_MIN>
+      <COLOR_MAX>0</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Use your favorite ground beans - I prefer Sumatra in this beer. Pro tip: Stay away from washed beans coffee as it imparts too much acrid bitterness that clashes with the malt.</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>62</MASH_TEMP>
+      <MASH_TIME>110</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Mash 1</NAME>
+        <TEMP>39</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 1</NAME>
+        <TEMP>39</TEMP>
+        <TIME>20</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash 2</NAME>
+        <TEMP>68</TEMP>
+        <TIME>80</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Mash Out</NAME>
+        <TEMP>79</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>45</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 2</NAME>
+        <TEMP>97</TEMP>
+        <TIME>5</TIME>
+        <LOCATION>Adjunct2</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 3</NAME>
+        <TEMP>97</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>Adjunct3</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>18</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>18</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>MultiStep</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Mash 1</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>39</STEP_TEMP>
+          <STEP_TIME>20</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash 2</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>68</STEP_TEMP>
+          <STEP_TIME>80</STEP_TIME>
+        </MASH_STEP>
+        <MASH_STEP>
+          <NAME>Mash Out</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>79</STEP_TEMP>
+          <STEP_TIME>10</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Nugget</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>13</ALPHA>
+        <AMOUNT>0.0283</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.85</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Roasted Barley</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.18</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>55.00</YIELD>
+        <COLOR>450</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>British Brown</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.27</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>68.70</YIELD>
+        <COLOR>70</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Flaked Oats</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.45</AMOUNT>
+        <TYPE>Other Grain</TYPE>
+        <YIELD>71.09</YIELD>
+        <COLOR>2.2</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Patagonia Dark Chocolate</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.23</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>59.78</YIELD>
+        <COLOR>450</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>American Two-Row Pale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>3.06</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>80.00</YIELD>
+        <COLOR>1.8</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>West Coast Ale</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Lallemand</LABORATORY>
+        <PRODUCT_ID>BRY-97</PRODUCT_ID>
+        <MIN_TEMPERATURE>15</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>22</MAX_TEMPERATURE>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <MISCS>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Chocolate</NAME>
+        <TYPE>Other</TYPE>
+        <AMOUNT>28.3</AMOUNT>
+        <TIME>15</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: oz</NOTES>
+      </MISC>
+      <MISC>
+        <VERSION>1</VERSION>
+        <NAME>Coffee</NAME>
+        <TYPE>Other</TYPE>
+        <AMOUNT>56.7</AMOUNT>
+        <TIME>10</TIME>
+        <USE>Boil</USE>
+        <USE_FOR>Boil</USE_FOR>
+        <NOTES>Amount in: oz</NOTES>
+      </MISC>
+    </MISCS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>18</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Pacific Brunch Stout</NAME>
+  </RECIPE>
+</RECIPES>

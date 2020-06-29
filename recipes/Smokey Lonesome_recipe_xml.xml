@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RECIPES>
+  <RECIPE>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <BREWER>mountainman</BREWER>
+    <BATCH_SIZE>9.46</BATCH_SIZE>
+    <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
+    <BOIL_SIZE>13.21</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.21 L</DISPLAY_BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>55</EFFICIENCY>
+    <TASTE_NOTES>Marzen/Oktoberfest-style beer with a sweet, Beechwood smoky aroma and flavor.</TASTE_NOTES>
+    <DATE>4/30/2014 10:05:35 PM</DATE>
+    <OG>1.0598</OG>
+    <EST_OG>1.0598</EST_OG>
+    <FG>1.009</FG>
+    <EST_FG>1.009</EST_FG>
+    <IBU>23</IBU>
+    <COLOR>16</COLOR>
+    <EST_COLOR>16</EST_COLOR>
+    <ABV>6.9</ABV>
+    <EST_ABV>6.9</EST_ABV>
+    <PRIMARY_AGE>14400</PRIMARY_AGE>
+    <PRIMARY_TEMP>13</PRIMARY_TEMP>
+    <SECONDARY_AGE>0</SECONDARY_AGE>
+    <SECONDARY_TEMP>7</SECONDARY_TEMP>
+    <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+    <STYLE>
+      <CATEGORY_NUMBER>22</CATEGORY_NUMBER>
+      <STYLE_LETTER>A</STYLE_LETTER>
+      <NAME>Classic Rauchbier</NAME>
+      <VERSION>1</VERSION>
+      <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+      <OG_MIN>1.05</OG_MIN>
+      <OG_MAX>1.057</OG_MAX>
+      <FG_MIN>1.012</FG_MIN>
+      <FG_MAX>1.016</FG_MAX>
+      <IBU_MIN>20</IBU_MIN>
+      <IBU_MAX>30</IBU_MAX>
+      <COLOR_MIN>12</COLOR_MIN>
+      <COLOR_MAX>22</COLOR_MAX>
+    </STYLE>
+    <EQUIPMENT>
+      <NAME>PicoBrew Z/Zymatic</NAME>
+      <VERSION>1</VERSION>
+    </EQUIPMENT>
+    <NOTES>Use German Beechwood smoked malt or a Bamberg smoked malt for this beer. You may choose to smoke your own malts too.  However, peat smoked malts are not recommended for this style. Ferment at 55 degrees (1 month fermentation, 4-6 weeks lagering)</NOTES>
+    <ZYMATIC>
+      <MASH_TEMP>67</MASH_TEMP>
+      <MASH_TIME>90</MASH_TIME>
+      <BOIL_TEMP>97</BOIL_TEMP>
+      <STEP>
+        <NAME>Heat to Single S...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Single Step Infu...</NAME>
+        <TEMP>67</TEMP>
+        <TIME>90</TIME>
+        <LOCATION>Mash</LOCATION>
+        <DRAIN>8</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Heat to Boil</NAME>
+        <TEMP>97</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Boil Adjunct 1</NAME>
+        <TEMP>97</TEMP>
+        <TIME>60</TIME>
+        <LOCATION>Adjunct1</LOCATION>
+        <DRAIN>5</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Connect Chiller</NAME>
+        <TEMP>13</TEMP>
+        <TIME>0</TIME>
+        <LOCATION>Pause</LOCATION>
+        <DRAIN>0</DRAIN>
+      </STEP>
+      <STEP>
+        <NAME>Chill</NAME>
+        <TEMP>13</TEMP>
+        <TIME>10</TIME>
+        <LOCATION>PassThrough</LOCATION>
+        <DRAIN>10</DRAIN>
+      </STEP>
+    </ZYMATIC>
+    <MASH>
+      <NAME>SingleStepInfusion</NAME>
+      <VERSION>1</VERSION>
+      <GRAIN_TEMP>22.22222</GRAIN_TEMP>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Single Step Infusion Mash</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Temperature</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <HOPS>
+      <HOP>
+        <NAME>Hallertau</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>3.1</ALPHA>
+        <AMOUNT>0.036</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+      </HOP>
+    </HOPS>
+    <WATERS>
+      <WATER>
+        <VERSION>1</VERSION>
+        <AMOUNT>13.21</AMOUNT>
+      </WATER>
+    </WATERS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>German Smoked</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.36</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.51</YIELD>
+        <COLOR>9.075</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Vienna</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.68</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.26</YIELD>
+        <COLOR>3.5</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>German Munich</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>1.13</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>79.57</YIELD>
+        <COLOR>8</COLOR>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Carafa Special Type 1 (dehusked)</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.05</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>65.22</YIELD>
+        <COLOR>325</COLOR>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <YEASTS>
+      <YEAST>
+        <NAME>SafLager</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0</AMOUNT>
+        <FORM>Dry</FORM>
+        <LABORATORY>Fermentis</LABORATORY>
+        <PRODUCT_ID>W-34/70</PRODUCT_ID>
+        <MIN_TEMPERATURE>12</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>15</MAX_TEMPERATURE>
+        <ATTENUATION>85</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <KEGSMART>
+      <STEPS>
+        <STEP>
+          <NUMBER>1</NUMBER>
+          <NAME>Fermentation</NAME>
+          <TIME>14400</TIME>
+          <TEMP>13</TEMP>
+        </STEP>
+        <STEP>
+          <NUMBER>2</NUMBER>
+          <NAME>Crash Chill</NAME>
+          <TIME>0</TIME>
+          <TEMP>7</TEMP>
+        </STEP>
+      </STEPS>
+    </KEGSMART>
+    <NAME>Smokey Lonesome</NAME>
+  </RECIPE>
+</RECIPES>

@@ -6,46 +6,46 @@
     <BREWER>mountainman</BREWER>
     <BATCH_SIZE>9.46</BATCH_SIZE>
     <DISPLAY_BATCH_SIZE>9.46 L</DISPLAY_BATCH_SIZE>
-    <BOIL_SIZE>13.59</BOIL_SIZE>
-    <DISPLAY_BOIL_SIZE>13.59 L</DISPLAY_BOIL_SIZE>
+    <BOIL_SIZE>13.4</BOIL_SIZE>
+    <DISPLAY_BOIL_SIZE>13.4 L</DISPLAY_BOIL_SIZE>
     <BOIL_TIME>60</BOIL_TIME>
-    <EFFICIENCY>72</EFFICIENCY>
-    <TASTE_NOTES>A Bavarian specialty first brewed in Munich by the monks of St. Francis of Paula, ours is brewed in the spirit of Epic's Double Skull.</TASTE_NOTES>
-    <DATE>9/29/2014 10:04:59 PM</DATE>
-    <OG>1.0722</OG>
-    <EST_OG>1.0722</EST_OG>
-    <FG>1.018</FG>
-    <EST_FG>1.018</EST_FG>
-    <IBU>26</IBU>
-    <COLOR>19</COLOR>
-    <EST_COLOR>19</EST_COLOR>
-    <ABV>7.5</ABV>
-    <EST_ABV>7.5</EST_ABV>
+    <EFFICIENCY>67</EFFICIENCY>
+    <TASTE_NOTES>A pale, very sweet, Belgian Tripel.</TASTE_NOTES>
+    <DATE>5/23/2014 10:31:09 PM</DATE>
+    <OG>1.0881</OG>
+    <EST_OG>1.0881</EST_OG>
+    <FG>1.0211</FG>
+    <EST_FG>1.0211</EST_FG>
+    <IBU>20</IBU>
+    <COLOR>5</COLOR>
+    <EST_COLOR>5</EST_COLOR>
+    <ABV>9.5</ABV>
+    <EST_ABV>9.5</EST_ABV>
     <PRIMARY_AGE>14400</PRIMARY_AGE>
-    <PRIMARY_TEMP>17</PRIMARY_TEMP>
+    <PRIMARY_TEMP>22</PRIMARY_TEMP>
     <SECONDARY_AGE>0</SECONDARY_AGE>
     <SECONDARY_TEMP>7</SECONDARY_TEMP>
     <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
     <STYLE>
-      <CATEGORY_NUMBER>5</CATEGORY_NUMBER>
+      <CATEGORY_NUMBER>18</CATEGORY_NUMBER>
       <STYLE_LETTER>C</STYLE_LETTER>
-      <NAME>Doppelbock</NAME>
+      <NAME>Belgian Tripel</NAME>
       <VERSION>1</VERSION>
       <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
-      <OG_MIN>1.072</OG_MIN>
-      <OG_MAX>1.112</OG_MAX>
-      <FG_MIN>1.016</FG_MIN>
-      <FG_MAX>1.024</FG_MAX>
-      <IBU_MIN>16</IBU_MIN>
-      <IBU_MAX>26</IBU_MAX>
-      <COLOR_MIN>6</COLOR_MIN>
-      <COLOR_MAX>25</COLOR_MAX>
+      <OG_MIN>1.075</OG_MIN>
+      <OG_MAX>1.085</OG_MAX>
+      <FG_MIN>1.008</FG_MIN>
+      <FG_MAX>1.014</FG_MAX>
+      <IBU_MIN>20</IBU_MIN>
+      <IBU_MAX>40</IBU_MAX>
+      <COLOR_MIN>4.5</COLOR_MIN>
+      <COLOR_MAX>7</COLOR_MAX>
     </STYLE>
     <EQUIPMENT>
       <NAME>PicoBrew Z/Zymatic</NAME>
       <VERSION>1</VERSION>
     </EQUIPMENT>
-    <NOTES>White Labs 833 German Bock Lager or WYeast 2206 Bavarian Lager yeast work well, too.</NOTES>
+    <NOTES>WYeast Strain: 3864 Canadian/Belgian is the Franco-Belgian strain used.  Wyeast Trappist 3787 will work well as will Fermentis T-58 dry yeast. Let this fully ferment out. Removing from yeast too soon will cause it to underattenuate (cloyingly sweet) and taste yeasty.  Corn sugar can be used in place of Belgian candy sugar. Put it in at the start of the boil or soon after. Hydrate it with a little water first so it doesn't cake.</NOTES>
     <ZYMATIC>
       <MASH_TEMP>63</MASH_TEMP>
       <MASH_TIME>120</MASH_TIME>
@@ -116,27 +116,20 @@
       <STEP>
         <NAME>Boil Adjunct 1</NAME>
         <TEMP>97</TEMP>
-        <TIME>30</TIME>
+        <TIME>60</TIME>
         <LOCATION>Adjunct1</LOCATION>
-        <DRAIN>0</DRAIN>
-      </STEP>
-      <STEP>
-        <NAME>Boil Adjunct 2</NAME>
-        <TEMP>97</TEMP>
-        <TIME>30</TIME>
-        <LOCATION>Adjunct2</LOCATION>
         <DRAIN>5</DRAIN>
       </STEP>
       <STEP>
         <NAME>Connect Chiller</NAME>
-        <TEMP>17</TEMP>
+        <TEMP>22</TEMP>
         <TIME>0</TIME>
         <LOCATION>Pause</LOCATION>
         <DRAIN>0</DRAIN>
       </STEP>
       <STEP>
         <NAME>Chill</NAME>
-        <TEMP>17</TEMP>
+        <TEMP>22</TEMP>
         <TIME>10</TIME>
         <LOCATION>PassThrough</LOCATION>
         <DRAIN>10</DRAIN>
@@ -179,73 +172,57 @@
     </MASH>
     <HOPS>
       <HOP>
-        <NAME>Perle</NAME>
-        <VERSION>1</VERSION>
-        <ALPHA>8.9</ALPHA>
-        <AMOUNT>0.0105</AMOUNT>
-        <USE>Boil</USE>
-        <TIME>60</TIME>
-      </HOP>
-      <HOP>
         <NAME>Tettnanger</NAME>
         <VERSION>1</VERSION>
-        <ALPHA>6.1</ALPHA>
-        <AMOUNT>0.0105</AMOUNT>
+        <ALPHA>7.5</ALPHA>
+        <AMOUNT>0.0173</AMOUNT>
         <USE>Boil</USE>
-        <TIME>30</TIME>
+        <TIME>60</TIME>
       </HOP>
     </HOPS>
     <WATERS>
       <WATER>
         <VERSION>1</VERSION>
-        <AMOUNT>13.59</AMOUNT>
+        <AMOUNT>13.4</AMOUNT>
       </WATER>
     </WATERS>
     <FERMENTABLES>
       <FERMENTABLE>
-        <NAME>Belgian CaraMunich</NAME>
+        <NAME>Belgian Pils</NAME>
         <VERSION>1</VERSION>
-        <AMOUNT>0.34</AMOUNT>
+        <AMOUNT>3.17</AMOUNT>
         <TYPE>Grain</TYPE>
-        <YIELD>71.09</YIELD>
-        <COLOR>75</COLOR>
+        <YIELD>78.26</YIELD>
+        <COLOR>1.5</COLOR>
       </FERMENTABLE>
       <FERMENTABLE>
-        <NAME>German Pilsener</NAME>
+        <NAME>German Vienna</NAME>
         <VERSION>1</VERSION>
-        <AMOUNT>1.13</AMOUNT>
+        <AMOUNT>0.45</AMOUNT>
         <TYPE>Grain</TYPE>
-        <YIELD>81.90</YIELD>
-        <COLOR>1.65</COLOR>
+        <YIELD>78.26</YIELD>
+        <COLOR>3.5</COLOR>
       </FERMENTABLE>
       <FERMENTABLE>
-        <NAME>German Munich</NAME>
+        <NAME>Candi Sugar</NAME>
         <VERSION>1</VERSION>
-        <AMOUNT>2.27</AMOUNT>
-        <TYPE>Grain</TYPE>
-        <YIELD>79.57</YIELD>
-        <COLOR>8</COLOR>
-      </FERMENTABLE>
-      <FERMENTABLE>
-        <NAME>Belgian Aromatic</NAME>
-        <VERSION>1</VERSION>
-        <AMOUNT>0.11</AMOUNT>
-        <TYPE>Grain</TYPE>
-        <YIELD>64.57</YIELD>
-        <COLOR>25</COLOR>
+        <AMOUNT>0.91</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>96.85</YIELD>
+        <COLOR>1.1</COLOR>
       </FERMENTABLE>
     </FERMENTABLES>
     <YEASTS>
       <YEAST>
-        <NAME>SafAle</NAME>
+        <NAME>Trappist High Gravity</NAME>
         <VERSION>1</VERSION>
         <AMOUNT>0</AMOUNT>
         <FORM>Dry</FORM>
-        <LABORATORY>Fermentis</LABORATORY>
-        <PRODUCT_ID>S-33</PRODUCT_ID>
-        <MIN_TEMPERATURE>15</MIN_TEMPERATURE>
-        <MAX_TEMPERATURE>20</MAX_TEMPERATURE>
-        <ATTENUATION>75</ATTENUATION>
+        <LABORATORY>Wyeast</LABORATORY>
+        <PRODUCT_ID>3787</PRODUCT_ID>
+        <MIN_TEMPERATURE>18</MIN_TEMPERATURE>
+        <MAX_TEMPERATURE>26</MAX_TEMPERATURE>
+        <ATTENUATION>76</ATTENUATION>
       </YEAST>
     </YEASTS>
     <KEGSMART>
@@ -254,7 +231,7 @@
           <NUMBER>1</NUMBER>
           <NAME>Fermentation</NAME>
           <TIME>14400</TIME>
-          <TEMP>17</TEMP>
+          <TEMP>22</TEMP>
         </STEP>
         <STEP>
           <NUMBER>2</NUMBER>
@@ -264,6 +241,6 @@
         </STEP>
       </STEPS>
     </KEGSMART>
-    <NAME>Epic Noggin</NAME>
+    <NAME>The Fin du Monde</NAME>
   </RECIPE>
 </RECIPES>
