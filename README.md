@@ -23,6 +23,7 @@ A list of parts and software which can support your PicoBrew devices.
 
 ### Recipe Creation
 * [PicoBrew Crafter](https://picobrew.com/Craft.cshtml) ends approx Oct 2020
+* [PicoBrew Crafter 2 BETA](https://www.brewcrafter.com/) unsure of end date
 * [Brewfather](https://web.brewfather.app/)
   * Contains profile for PicoBrew Z
   * Can make custom profile for PicoBrew S/C/Pro
