@@ -27,6 +27,7 @@ A list of parts and software which can support your PicoBrew devices.
 * [Brewfather](https://web.brewfather.app/)
   * Contains profile for PicoBrew Z
   * Can make custom profile for PicoBrew S/C/Pro
+* [Brewer's Friend](https://www.brewersfriend.com/)
 
 ## Parts
 
