@@ -32,7 +32,7 @@ A list of parts and software which can support your PicoBrew devices.
 
 ### Other Tools
 * [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
-* [picobrew-z-api](https://github.com/blucey/picobrew-z-api) - Documentation of the Picobrew Z API
+* [picobrew-z-api](https://github.com/blucey/picobrew-z-api/blob/master/Picobrew%20Z%20API.md) - Documentation of the Picobrew Z API
 
 ## Parts
 
