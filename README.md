@@ -29,6 +29,7 @@ A list of parts and software which can support your PicoBrew devices.
   * Contains profile for PicoBrew Z
   * Can make custom profile for PicoBrew S/C/Pro
 * [Brewer's Friend](https://www.brewersfriend.com/)
+* [PicoBrew XMLs](https://github.com/manofthemountain/awesome-picobrew/tree/master/recipes) - Over 200 recipes from the PicoBrew Collection.  The XMLs can be imported into other recipe creation tools.
 
 ### Other Tools
 * [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
