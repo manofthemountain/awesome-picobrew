@@ -4,6 +4,7 @@ A list of parts and software which can support your PicoBrew devices.
 - [Software](#software)
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
+  * [Custom Recipe Profiles](#custom-recipe-profiles)
 - [Parts](#parts)
   * [PicoBrew S-C-Pro](#picobrew-s-c-pro)
     + [PicoBrew S-Pro Keg](#picobrew-s-pro-keg)
@@ -28,6 +29,23 @@ A list of parts and software which can support your PicoBrew devices.
   * Contains profile for PicoBrew Z
   * Can make custom profile for PicoBrew S/C/Pro
 * [Brewer's Friend](https://www.brewersfriend.com/)
+
+### Custom Recipe Profiles
+* Pico C
+  * Brewfather
+    * (Be sure to change your 'Volume' to 'Liter' in Settings)
+    * Only change the below settings on a new profile, leave everything else its default value
+
+    | Setting | Value |
+    | --- | ---:|
+    | Boil Time | 60 minutes |
+    | Batch Volume Target | Fermenter |
+    | Batch Volume (Fermenter) | 4.5 |
+    | Calc boil volume | unchecked |
+    | Pre-Boil Volume | 4.5 |
+    | Trub/Chiller Loss | .5 |
+    | Brewhouse Effieciency | 55 |
+    | Hop Utilization | 75 |
 
 ## Parts
 
