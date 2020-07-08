@@ -4,6 +4,7 @@ A list of parts and software which can support your PicoBrew devices.
 - [Software](#software)
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
+  * [Other Tools](#other-tools)
 - [Parts](#parts)
   * [PicoBrew S-C-Pro](#picobrew-s-c-pro)
     + [PicoBrew S-Pro Keg](#picobrew-s-pro-keg)
@@ -28,6 +29,10 @@ A list of parts and software which can support your PicoBrew devices.
   * Contains profile for PicoBrew Z
   * Can make custom profile for PicoBrew S/C/Pro
 * [Brewer's Friend](https://www.brewersfriend.com/)
+
+### Other Tools
+* [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
+* [picobrew-z-api](https://github.com/blucey/picobrew-z-api) - Documentation of the Picobrew Z API
 
 ## Parts
 
