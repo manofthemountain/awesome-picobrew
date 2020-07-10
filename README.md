@@ -32,12 +32,8 @@ A list of parts and software which can support your PicoBrew devices.
 * [Brewer's Friend](https://www.brewersfriend.com/)
 * [PicoBrew XMLs](https://github.com/manofthemountain/awesome-picobrew/tree/master/recipes) - Over 200 recipes from the PicoBrew Collection.  The XMLs can be imported into other recipe creation tools.
 
-### Other Tools
-* [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
-* [picobrew-z-api](https://github.com/blucey/picobrew-z-api/blob/master/Picobrew%20Z%20API.md) - Documentation of the Picobrew Z API
-
 ### Custom Recipe Profiles
-* Pico C
+* Pico C-S-Pro
   * Brewfather
     * (Be sure to change your 'Volume' to 'Liter' in Settings)
     * Only change the below settings on a new profile, leave everything else its default value
@@ -52,6 +48,11 @@ A list of parts and software which can support your PicoBrew devices.
     | Trub/Chiller Loss        |        .5 |
     | Brewhouse Effieciency    |        55 |
     | Hop Utilization          |        75 |
+
+
+### Other Tools
+* [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
+* [picobrew-z-api](https://github.com/blucey/picobrew-z-api/blob/master/Picobrew%20Z%20API.md) - Documentation of the Picobrew Z API
 
 ## Parts
 
