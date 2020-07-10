@@ -4,6 +4,7 @@ A list of parts and software which can support your PicoBrew devices.
 - [Software](#software)
   * [Servers](#servers)
   * [Recipe Creation](#recipe-creation)
+  * [Custom Recipe Profiles](#custom-recipe-profiles)
   * [Other Tools](#other-tools)
 - [Parts](#parts)
   * [PicoBrew S-C-Pro](#picobrew-s-c-pro)
@@ -34,6 +35,23 @@ A list of parts and software which can support your PicoBrew devices.
 ### Other Tools
 * [CLI Picobrew](https://github.com/tmack8001/picobrew) - A command line interface (CLI) for interacting and extracting personal data from Picobrew's Brew House
 * [picobrew-z-api](https://github.com/blucey/picobrew-z-api/blob/master/Picobrew%20Z%20API.md) - Documentation of the Picobrew Z API
+
+### Custom Recipe Profiles
+* Pico C
+  * Brewfather
+    * (Be sure to change your 'Volume' to 'Liter' in Settings)
+    * Only change the below settings on a new profile, leave everything else its default value
+
+    | Setting                  |     Value |
+    | ------------------------ | --------: |
+    | Boil Time                |        60 |
+    | Batch Volume Target      | Fermenter |
+    | Batch Volume (Fermenter) |       4.5 |
+    | Calc boil volume         | unchecked |
+    | Pre-Boil Volume          |       4.5 |
+    | Trub/Chiller Loss        |        .5 |
+    | Brewhouse Effieciency    |        55 |
+    | Hop Utilization          |        75 |
 
 ## Parts
 
