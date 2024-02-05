@@ -111,6 +111,7 @@ Pico UnPakd Kit
 ### PicoBrew ZSeries
 - Boiler (120v 1400w) AET PN 12010 or 12021
 - Pump - SeaFlo SFDP1-007-020-21 - 12V 1.2A Flow:2.6LPM / 0.7 GPM
+- Inline Filter - Ron-Vik PLS-S14B-PPE-050 - 1/4 Hose Barb Low Profile Series (https://www.vacmotion.com/Details.aspx?Cat=InlineFilters&Id=1337)
 
 ### PicoFerm
 
